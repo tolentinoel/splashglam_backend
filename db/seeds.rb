@@ -9,43 +9,43 @@ require 'pry'
 # List.destroy_all
 # Review.destroy_all
 
-normal = JSON.parse(File.read('db/splashglam_normal.json'))
-combination = JSON.parse(File.read('db/splashglam_combi.json'))
+# normal = JSON.parse(File.read('db/splashglam_normal.json'))
+# combination = JSON.parse(File.read('db/splashglam_combi.json'))
 oily = JSON.parse(File.read('db/splashglam_oily.json'))
-# binding.pry
-normal["products_normal"].each do |product|
-    product["tag"] = "normal"
-    Product.create(
-        name: product["name"],
-        url: product["url"],
-        brand: product["brand"],
-        brand_url: product["brand_url"],
-        price: product["price"],
-        image_url: product["image"],
-        description: product["description"],
-        tag: product["tag"]
-    )
-end
 
-combination["products_combination"].each do |product|
-    product["tag"] = "combination"
-    if !Product.find_by(name: product["name"])
-        Product.create(
-            name: product["name"],
-            url: product["url"],
-            brand: product["brand"],
-            brand_url: product["brand_url"],
-            price: product["price"],
-            image_url: product["image"],
-            description: product["description"],
-            tag: product["tag"]
-        )
-    else
-        product = Product.find_by(name: product["name"])
-        # binding.pry
-        Product.update(tag: product.tag + ", combination")
-    end
-end
+# normal["products_normal"].each do |product|
+#     product["tag"] = "normal"
+#     Product.create(
+#         name: product["name"],
+#         url: product["url"],
+#         brand: product["brand"],
+#         brand_url: product["brand_url"],
+#         price: product["price"],
+#         image_url: product["image"],
+#         description: product["description"],
+#         tag: product["tag"]
+#     )
+# end
+
+# combination["products_combination"].each do |product|
+#     product["tag"] = "combination"
+#     if !Product.find_by(name: product["name"])
+#         Product.create(
+#             name: product["name"],
+#             url: product["url"],
+#             brand: product["brand"],
+#             brand_url: product["brand_url"],
+#             price: product["price"],
+#             image_url: product["image"],
+#             description: product["description"],
+#             tag: product["tag"]
+#         )
+#     else
+#         product = Product.find_by(name: product["name"])
+#         # binding.pry
+#         Product.update(tag: product.tag + ", combination")
+#     end
+# end
 
 oily["products_oily"].each do |product|
     product["tag"] = "oily"
@@ -84,6 +84,6 @@ kim = User.create({name: "kim", username: "nnhk23", skin_type: "combination", ag
 #     description: "Rebalance and revive dull, rough skin with this nourishing serum. Containing over 53% green tea extracts from BoSeong, the home of green tea farming in Korea, to gently address chapped, dehydrated and irritated skin with a calming cooling effect."
 # })
 
-# List.create({title: "firstList", product: product1, user: ellaine})
-# Review.create({content: "My first ever review to a product here in SplashGlam! This is to test if my relationships are working! If you read this. Yay!", user: kim, product: product1})
+List.create({title: "firstList", product: Product.first, user: ellaine})
+Review.create({content: "My first ever review to a product here in SplashGlam! This is to test if my relationships are working! If you read this. Yay!", user: kim, product: Product.first})
 
