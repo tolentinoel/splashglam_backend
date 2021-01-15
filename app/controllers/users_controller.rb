@@ -2,16 +2,12 @@ class UsersController < ApplicationController
 
     def index
         users = User.all
-        render json: users, except: [:created_at, :updated_at]
+        render json: users
     end
 
     def show
         user = User.find(params[:id])
-        render json: user.to_json(
-            :include => {
-                :lists
-            }
-        )
+        render json: user
     end
 
 
@@ -28,11 +24,7 @@ class UsersController < ApplicationController
     def update
         user = User.find(params[:id])
         if user.update(user_params)
-            render json: user.to_json(
-                :include => {
-                    :lists
-                }
-            )
+            render json: user
         else
             render json: {error: "Username has already been taken. Sorry can't update your profile."}
         end
