@@ -12,6 +12,7 @@ class ListsController < ApplicationController
     end
 
     def create
+        byebug
         user = User.find(params[:user_id])
         product = Product.find(params[:product_id])
         list = List.create(list_params)

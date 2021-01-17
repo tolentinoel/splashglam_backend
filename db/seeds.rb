@@ -62,10 +62,10 @@ oily["products_oily"].each do |product|
 
 end
 
-ellaine = User.create({name: "ellaine", username: "ellainet", skin_type: "oily", age: 28})
-kim = User.create({name: "kim", username: "nnhk23", skin_type: "combination", age: 21})
+# ellaine = User.create({name: "ellaine", username: "ellainet", skin_type: "oily", age: 28})
+# kim = User.create({name: "kim", username: "nnhk23", skin_type: "combination", age: 21})
 
 
-List.create({title: "firstList", product: Product.first, user: ellaine})
-Review.create({content: "My first ever review to a product here in SplashGlam! This is to test if my relationships are working! If you read this. Yay!", user: kim, product: Product.first})
+# List.create({title: "firstList", product: Product.first, user_id: 1})
+# Review.create({content: "My first ever review to a product here in SplashGlam! This is to test if my relationships are working! If you read this. Yay!", user_id: 2, product: Product.first})
 
