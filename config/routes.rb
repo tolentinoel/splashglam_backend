@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :users
 
   post "/login", to: "users#login"
+  get "/getuser", to: "users#get_user"
 end
