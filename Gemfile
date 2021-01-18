@@ -41,3 +41,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'active_model_serializers'
 gem 'activerecord-reset-pk-sequence'
+gem 'pry'
+gem "jwt", "~> 2.2"
