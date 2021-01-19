@@ -14,12 +14,7 @@ class ListsController < ApplicationController
     end
 
     def create
-        #  byebug
         user = User.find(params[:user_id])
-        product = Product.find(params[:product_id]) || nil
-        # list = List.create(list_params)
-        # byebug
-        # render json: list
         list = List.new(list_params)
         if list.save
             render json: list
@@ -42,7 +37,7 @@ class ListsController < ApplicationController
     private
 
     def list_params
-        params.permit(:id, :title, :user_id, :product_id)
+        params.permit(:id, :title, :user_id)
     end
 
 end

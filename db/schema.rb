@@ -10,16 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_14_024817) do
+ActiveRecord::Schema.define(version: 2021_01_19_064602) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "list_products", force: :cascade do |t|
+    t.bigint "list_id", null: false
+    t.bigint "product_id", null: false
+    t.index ["list_id"], name: "index_list_products_on_list_id"
+    t.index ["product_id"], name: "index_list_products_on_product_id"
+  end
+
   create_table "lists", force: :cascade do |t|
     t.string "title"
     t.bigint "user_id", null: false
-    t.bigint "product_id"
-    t.index ["product_id"], name: "index_lists_on_product_id"
     t.index ["user_id"], name: "index_lists_on_user_id"
   end
 
@@ -50,7 +55,8 @@ ActiveRecord::Schema.define(version: 2021_01_14_024817) do
     t.integer "age"
   end
 
-  add_foreign_key "lists", "products"
+  add_foreign_key "list_products", "lists"
+  add_foreign_key "list_products", "products"
   add_foreign_key "lists", "users"
   add_foreign_key "reviews", "products"
   add_foreign_key "reviews", "users"
