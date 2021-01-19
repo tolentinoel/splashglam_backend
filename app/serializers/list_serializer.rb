@@ -1,5 +1,5 @@
 class ListSerializer < ActiveModel::Serializer
-  attributes :id, :title, :list_user, :products
+  attributes :id, :title, :user_id, :products
 
   def list_user
     {
@@ -9,13 +9,15 @@ class ListSerializer < ActiveModel::Serializer
   end
 
   def products
-    [
-      {
-        product_id: self.object.product.id,
-        product_name: self.object.product.name,
-        product_brand: self.object.product.brand,
-        product_image: self.object.product.image_url
-      }
-    ]
+    if !!self.object.product 
+      return [
+          {
+            product_id: self.object.product.id,
+            product_name: self.object.product.name,
+            product_brand: self.object.product.brand,
+            product_image: self.object.product.image_url
+          }
+        ]
+    end
   end
 end

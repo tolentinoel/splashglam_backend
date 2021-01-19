@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2021_01_14_024817) do
   create_table "lists", force: :cascade do |t|
     t.string "title"
     t.bigint "user_id", null: false
-    t.bigint "product_id", null: false
+    t.bigint "product_id"
     t.index ["product_id"], name: "index_lists_on_product_id"
     t.index ["user_id"], name: "index_lists_on_user_id"
   end

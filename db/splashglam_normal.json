@@ -1,0 +1,147 @@
+{
+    "products_normal": [
+     {
+      "name": "15% Vitamin C + Clean Caffeine Energy Serum",
+      "url": "https://www.youthtothepeople.com/products/15-vitamin-c-clean-caffeine-energy-serum",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$68",
+      "description": "Elevate your morning routine. This first-of-its-kind clinical-grade 15% vitamin C serum is boosted with clean, plant-derived caffeine from superleafs yerba mate and guayusa to immediately brighten, visibly reduce morning puffiness, and hydrate.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       }
+      ,
+     {
+      "name": "Superfood Cleanser",
+      "url": "https://www.youthtothepeople.com/products/superfood-face-cleanser",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$36",
+      "description": "Our powerful, but gentle daily face wash is formulated with cold-pressed antioxidants - kale, spinach, and green tea - to give your skin the ultimate cleanse.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+     },
+     {
+      "name": "Superberry Hydrate + Glow Dream Mask",
+      "url": "https://www.youthtothepeople.com/products/superberry-hydrate-and-glow-dream-mask",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$48",
+      "description": "The ultimate hydrating radiance boost. This overnight mask deeply hydrates, plumps and brightens with powerful, antioxidant-rich superberries and THD ascorbate, the latest clinically-proven form of stable Vitamin C. This formula helps to target dullness and uneven skin tone for brighter, more radiant skin.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+     {
+      "name": "Superberry Dream Eye Cream",
+      "url": "https://www.youthtothepeople.com/products/superberry-dream-eye-cream",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$48",
+      "description": "",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Yerba Mate Resurfacing Energy Facial",
+      "url": "https://www.youthtothepeople.com/products/yerba-mate-resurfacing-energy-facial",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$54",
+      "description": "This dual-action microdermabrasion facial breaks down dead skin cells with active enzymes, papaya, and pineapple, while sustainable micro-exfoliants bamboo and diatomaceous earth smooth skin texture. Amplified by highly caffeinated extracts, yerba mate and guayusa, this two-minute facial energizes and invigorates.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+     {
+      "name": "Superfood Air-Whip Moisture Cream",
+      "url": "https://www.youthtothepeople.com/products/superfood-air-whip-moisture-cream",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$48",
+      "description": "Get ready for some leafy green moisture with this lightweight, air-whipped moisture cream. All the antioxidant-packed superfoods you love combine forces with Hyaluronic Acid, creating a moisturizer that instantly restores, balances and conditions. Friendly for all skin types, best for combo/oily.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Adaptogen Deep Moisture Cream",
+      "url": "https://www.youthtothepeople.com/products/adaptogen-deep-moisture-cream",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$58",
+      "description": "A deeply hydrating moisturizer with superior plant extracts and a pro-grade peptide complex formulated for dry, reactive, and sensitive skin. This fragrance-free formula is made with an intelligent hydration trio of Squalane, Jojoba + Shea butter for long-lasting deep hydration that won't clog pores.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Kombucha + 11% AHA Exfoliation Power Toner",
+      "url": "https://www.youthtothepeople.com/products/kombucha-power-toner",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$38",
+      "description": "The newest addition to your nightly routine. This triple-action power toner blends 8% lactic acid and 3% glycolic acid to smooth skin texture and minimize the appearance of pores. The two ferments, kombucha black tea, and tree bark work as prebiotics to enhance the skin’s natural microbiome.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Superberry Hydrate + Glow Dream Oil",
+      "url": "https://www.youthtothepeople.com/products/superberry-hydrate-and-glow-dream-oil",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$44",
+      "description": "This ultra-enriched, flash-absorbing face oil packed with rare super berry antioxidants that leaves skin velvety soft, hydrated, and glowing. Intensely hydrating prickly pear and squalane oil lock in moisture with the help of omega fatty acids and high levels of vitamin C."
+       },
+       {
+      "name": "Superfood Hydrate + Firm Peptide Eye Cream",
+      "url": "https://www.youthtothepeople.com/products/superfood-hydrate-firm-peptide-eye-cream",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$35",
+      "description": "Small but mighty. Introduce your eyes to the power of superfoods and science. This nourishing cream delivers vital nutrients with our proprietary superfood blend, peptides, and an army of restorative vitamins.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Adaptogen Soothe + Hydrate Activated Mist",
+      "url": "https://www.youthtothepeople.com/products/adaptogen-soothe-hydrate-activated-mist",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$42",
+      "description": "An ultra-fine mist that hydrates, calms visible redness, and evens the look of skin tone with antioxidant-rich adaptogens, hyaluronic acid, and soothing peptides—like a serum in a mist.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Superfood Firm + Brighten Serum",
+      "url": "https://www.youthtothepeople.com/products/superfood-firm-brighten-serum",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$62",
+      "description": "The super serum answer to your skin concerns. This high-performance elixir contains a potent youth complex of peptides, age-defying antioxidants, illuminating vitamin C, and hydrating cross-linked hyaluronic acid. Say hi to brighter, plumper skin."
+       },
+       {
+      "name": "Superfood Skin Reset Mask",
+      "url": "https://www.youthtothepeople.com/products/superfood-skin-reset-mask",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$44",
+      "description": "Your skin reset button. Instantly balance and restore dull, tired skin with the best superfoods found on earth. Spirulina and bioactive microalgae, combined with our proprietary superfood blend, deliver age-defying antioxidants, phytonutrients, essential amino acids, vitamins, and minerals.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Protect the Planet Refillable Minis Kit",
+      "url": "https://www.youthtothepeople.com/products/protect-the-planet-refillable-minis-kit",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$60",
+      "description": "Meet the professional-grade minis kit for visible results at home with five vegan skincare heroes to cleanse, resurface, soothe, hydrate, and glow.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Your Youth Regimen Kit → Combo",
+      "url": "https://www.youthtothepeople.com/products/youth-regimen-kit-combo-skin",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$180 / ($228 Value)",
+      "description": "Five essentials to deep clean skin, reduce the look of pores, brighten, and equalize moisture levels. Crosslinked hyaluronic acid provides vital moisture while flash-absorbing Superberry Dream Oil seals in hydration to keep skin balanced and healthy.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       },
+       {
+      "name": "Your Youth Regimen Kit → Dry",
+      "url": "https://www.youthtothepeople.com/products/youth-regimen-kit-dry-skin",
+      "image": "https://cdn.shopify.com/s/files/1/0466/9701/t/70/assets/product-image-spacer.png?v=12218221157039629822",
+      "price": "$180 / ($242 Value)",
+      "description": "Five essentials that work in harmony to revitalize dry, dehydrated skin, replenish vital moisture, and gently cleanse for deeply conditioned skin. Omega-rich fatty acids, vitamin C, and adaptogens combine to soothe skin and lock in moisture.",
+      "brand": "Youth to the People",
+      "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+       }
+      
+    ]
+   }
+   

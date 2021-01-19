@@ -2,17 +2,23 @@ class UserSerializer < ActiveModel::Serializer
   attributes :id, :name, :username, :skin_type, :age, :lists
  
   def lists
-    self.object.lists.map do |each_list|
+    if !!self.object.lists
+      self.object.lists.map do |each_list|
       {
         title: each_list.title,
         products:
+        if !!each_list.product
           [
-            product_id: each_list.product.id,
-            product_name: each_list.product.name,
-            product_image: each_list.product.image_url,
-            product_brand: each_list.product.brand
+            id: each_list.product.id,
+            name: each_list.product.name,
+            image: each_list.product.image_url,
+            brand: each_list.product.brand
           ]
+        else
+          []
+        end
       }
+      end
     end
 
   end
