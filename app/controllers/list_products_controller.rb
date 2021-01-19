@@ -1,5 +1,9 @@
 class ListProductsController < ApplicationController
 
+    def index
+        list_products = ListProduct.all
+        render json: list_products
+    end
     def create
         list = List.find(params[:list_id])
         product = Product.find(params[:product_id]) || nil
