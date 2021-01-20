@@ -4,15 +4,20 @@ class ListProductsController < ApplicationController
         list_products = ListProduct.all
         render json: list_products
     end
+
+    def update
+        list_product = ListProduct.find(params[:id])
+        list_product.update(list_product_params)
+        render json: list_product
+    end
+    
     def create
+        # byebug
         list = List.find(params[:list_id])
         product = Product.find(params[:product_id]) || nil
         list_product = ListProduct.create(list_product_params)
-        # if list_product.save
-            render json: list_product
-        # else
-        #     render json: {error: "Error occured. Please try again."}
-        # end
+        render json: list_product
+
     end
 
     private
