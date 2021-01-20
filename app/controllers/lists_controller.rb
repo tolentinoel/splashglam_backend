@@ -1,8 +1,10 @@
 class ListsController < ApplicationController
 
     def index
-        user = User.find(params[:user_id])
-        lists = user.lists
+        # byebug
+        # user = User.find(params[:user_id])
+        # lists = user.lists
+        lists = List.all
         render json: lists
     end
 
@@ -12,11 +14,13 @@ class ListsController < ApplicationController
     end
 
     def create
-        # byebug
         user = User.find(params[:user_id])
-        product = Product.find(params[:product_id])
-        list = List.create(list_params)
-        render json: list
+        list = List.new(list_params)
+        if list.save
+            render json: list
+        else
+            render json: {error: "Error occured. Please try again."}
+        end
     end
 
     def update
@@ -33,7 +37,7 @@ class ListsController < ApplicationController
     private
 
     def list_params
-        params.require(:list).permit(:id, :title, :user_id, :product_id)
+        params.permit(:id, :title, :user_id)
     end
 
 end

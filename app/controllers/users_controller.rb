@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-
+    
     def index
         users = User.all
         render json: users
@@ -17,7 +17,7 @@ class UsersController < ApplicationController
             token = encode_token({user_id: user.id})
             render json: {user: user, token: token}
         else
-            render json: {error: "Username has already been taken. Please try again."}
+            render json: {error: "Incorrect credentials. Please try again."}
         end
     end
 
@@ -26,13 +26,15 @@ class UsersController < ApplicationController
         user = User.find_by(username: params[:username])
         if user && user.authenticate(params[:password])
             token = encode_token({user_id: user.id})
-            render json: {user: UserSerializer.new(user), token: token}
+            render json: {user: user, token: token}
         else
             render json: {error: "Incorrect Username or Password"}
         end
     end
 
-
+    def get_user
+        render json: {user: UserSerializer.new(current_user)}
+    end
 
     def update
         user = User.find(params[:id])
