@@ -20,6 +20,11 @@ class ListProductsController < ApplicationController
 
     end
 
+    def destroy
+        list_product = ListProduct.find(params[:id])
+        list_product.destroy
+    end
+
     private
 
     def list_product_params

@@ -37,10 +37,9 @@ class UsersController < ApplicationController
     end
 
     def update
-        # byebug
+
         user = User.find(params[:id])
         if user.update(user_params)
-            # byebug
             render json: user
         else
             render json: {error: "Username has already been taken. Sorry can't update your profile."}
@@ -48,7 +47,7 @@ class UsersController < ApplicationController
     end
 
     def destroy
-        user = User.find(user_params[:id])
+        user = User.find(params[:id])
         user.destroy
         render json: user
     end
