@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2021_01_19_064602) do
     t.string "price"
     t.string "image_url"
     t.string "description"
-    t.string "tag"
+    t.text "tag", default: [], array: true
   end
 
   create_table "reviews", force: :cascade do |t|
@@ -55,9 +55,9 @@ ActiveRecord::Schema.define(version: 2021_01_19_064602) do
     t.integer "age"
   end
 
-  add_foreign_key "list_products", "lists", on_delete: :cascade
-  add_foreign_key "list_products", "products", on_delete: :cascade
-  add_foreign_key "lists", "users", on_delete: :cascade
-  add_foreign_key "reviews", "products", on_delete: :cascade
-  add_foreign_key "reviews", "users", on_delete: :cascade
+  add_foreign_key "list_products", "lists"
+  add_foreign_key "list_products", "products"
+  add_foreign_key "lists", "users"
+  add_foreign_key "reviews", "products"
+  add_foreign_key "reviews", "users"
 end

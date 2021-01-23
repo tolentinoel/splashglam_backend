@@ -8,7 +8,7 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.string :price
       t.string :image_url
       t.string :description
-      t.string :tag
+      t.text :tag, array: true, default: []
     end
   end
 end
