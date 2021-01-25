@@ -6,7 +6,6 @@ class ReviewsController < ApplicationController
     end
 
     def create
-        # byebug
         user = User.find(params[:user_id])
         product = Product.find(params[:product_id])
         review = Review.create(review_params)
