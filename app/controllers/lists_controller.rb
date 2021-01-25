@@ -1,9 +1,6 @@
 class ListsController < ApplicationController
 
     def index
-        # byebug
-        # user = User.find(params[:user_id])
-        # lists = user.lists
         lists = List.all
         render json: lists
     end

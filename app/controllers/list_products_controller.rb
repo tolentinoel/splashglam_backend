@@ -12,7 +12,6 @@ class ListProductsController < ApplicationController
     end
     
     def create
-        # byebug
         list = List.find(params[:list_id])
         product = Product.find(params[:product_id]) || nil
         list_product = ListProduct.create(list_product_params)
