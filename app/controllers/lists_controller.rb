@@ -29,6 +29,7 @@ class ListsController < ApplicationController
     def destroy
         list = List.find(params[:id])
         list.destroy
+        render json: list
     end
 
     private
