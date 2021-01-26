@@ -33,4 +33,5 @@ class ApplicationController < ActionController::API
     def authorized
         render json: {error: "Log in required"}, status: :unauthorized unless logged_in?
     end
+    
 end
