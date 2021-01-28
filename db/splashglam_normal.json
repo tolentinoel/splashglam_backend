@@ -1,42 +1,6 @@
 {
     "products_normal_combi": [
       {
-        "name": "Adaptogen Soothe + Hydrate Activated Mist",
-        "url": "https://www.youthtothepeople.com/products/adaptogen-soothe-hydrate-activated-mist",
-        "image": "https://cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_AdaptogenMist_March2020-1_4225b777-3fb1-42a8-a9c7-298988ac6218_800x.jpg?v=1586544567",
-        "price": "$42",
-        "description": "An ultra-fine mist that hydrates, calms visible redness, and evens the look of skin tone with antioxidant-rich adaptogens, hyaluronic acid, and soothing peptides—like a serum in a mist.",
-        "brand": "Youth to the People",
-        "brand_url": "https://www.youthtothepeople.com/pages/pillars"
-      },
-      {
-        "name": "Superfood Firm + Brighten Serum",
-        "url": "https://www.youthtothepeople.com/products/superfood-firm-brighten-serum",
-        "image": "https://cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_SuperfoodSerum_March2020-1_944d1449-3341-4543-9265-5fdff53b6bc7_800x.jpg?v=1586544987",
-        "price": "$62",
-        "brand": "Youth to the People",
-        "brand_url": "https://www.youthtothepeople.com/pages/pillars",
-        "description": "The super serum answer to your skin concerns. This high-performance elixir contains a potent youth complex of peptides, age-defying antioxidants, illuminating vitamin C, and hydrating cross-linked hyaluronic acid. Say hi to brighter, plumper skin."
-      },
-      {
-        "name": "Superfood Skin Reset Mask",
-        "url": "https://www.youthtothepeople.com/products/superfood-skin-reset-mask",
-        "image": "https:/cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_SuperfoodMask_March2020-1_800x.jpg?v=1587752906",
-        "price": "$44",
-        "brand": "Youth to the People",
-        "brand_url": "https://www.youthtothepeople.com/pages/pillars",
-        "description": "Your skin reset button. Instantly balance and restore dull, tired skin with the best superfoods found on earth. Spirulina and bioactive microalgae, combined with our proprietary superfood blend, deliver age-defying antioxidants, phytonutrients, essential amino acids, vitamins, and minerals."
-       },
-       {
-        "name": "15% Vitamin C + Clean Caffeine Energy Serum",
-        "url": "https://www.youthtothepeople.com/products/15-vitamin-c-clean-caffeine-energy-serum",
-        "image": "https://cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_EnergySerum_Dec2020_Final-1_1_800x.jpg?v=1608137255",
-        "price": "$68",
-        "description": "Elevate your morning routine. This first-of-its-kind clinical-grade 15% vitamin C serum is boosted with clean, plant-derived caffeine from superleafs yerba mate and guayusa to immediately brighten, visibly reduce morning puffiness, and hydrate.",
-        "brand": "Youth to the People",
-        "brand_url": "https://www.youthtothepeople.com/pages/pillars"
-      },
-      {
         "name": "Licorice pH Balancing Cleansing Toner",
         "url": "https://sokoglam.com/collections/oily/products/acwell-licorice-ph-balancing-cleansing-toner",
         "brand": "ACWELL",
@@ -73,13 +37,40 @@
         "description": "Introducing a toner that's perfect for everyday use for all skin types! This all-in-one toner is packed with rice filtrate that works to instantly seep into skin and deeply hydrate it. The hypo-allergenic and alcohol-free formula also contains sugarcane, grape, and apple extracts to naturally exfoliate skin and help reduce pigmentation. The value size makes it perfect for the layering method to alleviate dry and dehydrated skin and uneven skin tone. The light consistency makes it easy for combination and oily skin types to use everyday."
       },
       {
-        "name": "Living Cleansing Balm",
-        "url": "https://sokoglam.com/collections/best-sellers/products/then-i-met-you-living-cleansing-balm",
-        "brand": "Then I Met You",
-        "brand_url": "https://sokoglam.com/collections/then-i-met-you",
-        "price": "$38",
-        "image": "https://cdn.shopify.com/s/files/1/0249/1218/products/Then-I-Met-You-Cleansing-Balm-w-badges-LowRes_1_860x.jpg?v=1603114863",
-        "description": "Every scoop is a sensorial experience, thanks to its signature sorbet-like texture that is rich in nutrients. The Living Cleansing Balm glides onto skin and melts away oil-based impurities such as excess sebum, sunscreen and stubborn makeup without leaving behind an oily residue. The star ingredient in the luxurious formula is antioxidant and fatty acid-rich seaberry (sea buckthorn) oil, which softens and protects skin, and gives the balm its distinctive bright yellow color. Other skin-benefiting ingredients include anti-aging and brightening persimmon extract and nourishing olive oil and vitamin E.\nFree of polyethylene, mineral oil, alcohol, silicone, parabens, artificial coloring and synthetic fragrance."
+        "name": "Adaptogen Soothe + Hydrate Activated Mist",
+        "url": "https://www.youthtothepeople.com/products/adaptogen-soothe-hydrate-activated-mist",
+        "image": "https://cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_AdaptogenMist_March2020-1_4225b777-3fb1-42a8-a9c7-298988ac6218_800x.jpg?v=1586544567",
+        "price": "$42",
+        "description": "An ultra-fine mist that hydrates, calms visible redness, and evens the look of skin tone with antioxidant-rich adaptogens, hyaluronic acid, and soothing peptides—like a serum in a mist.",
+        "brand": "Youth to the People",
+        "brand_url": "https://www.youthtothepeople.com/pages/pillars"
+      },
+      {
+        "name": "Superfood Firm + Brighten Serum",
+        "url": "https://www.youthtothepeople.com/products/superfood-firm-brighten-serum",
+        "image": "https://cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_SuperfoodSerum_March2020-1_944d1449-3341-4543-9265-5fdff53b6bc7_800x.jpg?v=1586544987",
+        "price": "$62",
+        "brand": "Youth to the People",
+        "brand_url": "https://www.youthtothepeople.com/pages/pillars",
+        "description": "The super serum answer to your skin concerns. This high-performance elixir contains a potent youth complex of peptides, age-defying antioxidants, illuminating vitamin C, and hydrating cross-linked hyaluronic acid. Say hi to brighter, plumper skin."
+      },
+      {
+        "name": "Superfood Skin Reset Mask",
+        "url": "https://www.youthtothepeople.com/products/superfood-skin-reset-mask",
+        "image": "https:/cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_SuperfoodMask_March2020-1_800x.jpg?v=1587752906",
+        "price": "$44",
+        "brand": "Youth to the People",
+        "brand_url": "https://www.youthtothepeople.com/pages/pillars",
+        "description": "Your skin reset button. Instantly balance and restore dull, tired skin with the best superfoods found on earth. Spirulina and bioactive microalgae, combined with our proprietary superfood blend, deliver age-defying antioxidants, phytonutrients, essential amino acids, vitamins, and minerals."
+       },
+       {
+        "name": "15% Vitamin C + Clean Caffeine Energy Serum",
+        "url": "https://www.youthtothepeople.com/products/15-vitamin-c-clean-caffeine-energy-serum",
+        "image": "https://cdn.shopify.com/s/files/1/0466/9701/products/YTTP_Ecomm_PPages_EnergySerum_Dec2020_Final-1_1_800x.jpg?v=1608137255",
+        "price": "$68",
+        "description": "Elevate your morning routine. This first-of-its-kind clinical-grade 15% vitamin C serum is boosted with clean, plant-derived caffeine from superleafs yerba mate and guayusa to immediately brighten, visibly reduce morning puffiness, and hydrate.",
+        "brand": "Youth to the People",
+        "brand_url": "https://www.youthtothepeople.com/pages/pillars"
       },
       {
         "name": "C’s The Day Serum",
