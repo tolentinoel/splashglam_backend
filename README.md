@@ -37,14 +37,14 @@
 ### Installation
     https://github.com/tolentinoel/splashglam_frontend
 
-    #####Backend
+    ##### Backend
 
     √ bundle install
     √ rails db:migrate
     √ rails db:seed
     √ rails s
 
-    #####Frontend
+    ##### Frontend
 
     √ npm install
     √ npm i react-router-dom
