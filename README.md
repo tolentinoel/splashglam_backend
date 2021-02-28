@@ -2,15 +2,6 @@
 ## SplashGlam_backend
     This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Screenshots
-   ![Home Page on light mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/LightMode_home.png)
-   ![Home Page on dark mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/DarkMode_home.png)
-   ![Product List on light mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/LightMode_main.png)
-   ![Product List on dark mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/DarkMode_main.png)
-   ![Example product page](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/productpage.png)
-   ![Creating list](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/CreateList.png)
-   ![Viewing bookmarked products](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/ViewLists.png)
-
 ### Technology Used
     -Ruby on Rails
     -Active model serializers
@@ -37,14 +28,14 @@
 ### Installation
     https://github.com/tolentinoel/splashglam_frontend
 
-    ##### Backend
+##### Backend
 
     √ bundle install
     √ rails db:migrate
     √ rails db:seed
     √ rails s
 
-    ##### Frontend
+##### Frontend
 
     √ npm install
     √ npm i react-router-dom
@@ -57,4 +48,15 @@ npm start
 
 Runs the app in the development mode.
 Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
+
+
+
+### Screenshots
+   ![Home Page on light mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/LightMode_home.png)
+   ![Home Page on dark mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/DarkMode_home.png)
+   ![Product List on light mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/LightMode_main.png)
+   ![Product List on dark mode](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/DarkMode_main.png)
+   ![Example product page](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/productpage.png)
+   ![Creating list](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/CreateList.png)
+   ![Viewing bookmarked products](https://github.com/tolentinoel/splashglam_frontend/blob/main/src/screenshots/ViewLists.png)
 
