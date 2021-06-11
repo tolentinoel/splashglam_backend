@@ -1,6 +1,6 @@
 
-## SplashGlam_backend
-    This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SplashGlam_frontend
+    This project is deployed and hosted at Heroku - http://splashglam.herokuapp.com/ for your browser experience!
 
 ### Technology Used
     -Ruby on Rails
